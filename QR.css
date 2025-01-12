@@ -1,0 +1,38 @@
+body{
+    background-color: hsl(212, 45%, 89%)
+}
+.main{
+    box-shadow: 0 0 10px rgb(199, 199, 199);
+    display: flex;
+    max-width: 100%;
+    width: 17rem;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: hsl(0, 0%, 100%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 20rem;
+    padding-top: 15px;
+}
+img{
+    width: 15rem;
+    border-radius: 10px;
+}
+.text{
+    max-width: 100%;
+    width: 15rem;
+    padding-bottom: 15px;
+}
+p{
+    text-align: center;
+}
